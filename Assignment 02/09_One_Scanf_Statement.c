@@ -1,19 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
-    int a;
-    float b;
-   double c,d;
+    int a,b;
+    float c,d,sum;
 
-
-    printf("Enter an integer , a float and a double : \n");
-    scanf("%d %f %e", &a, &b, &c);
+    printf("Enter 2 integer values : \n");
+    scanf("%d %d", &a, &b);
     printf("\n");
-    b= -b;
-  /*  c= -c; */
-    d =a-b-c;
-    printf("%d     %f             %e",a,b,c);
-    printf("The sum of the three entered numbers are : %e", d);
+
+    printf("Enter 2 float values : \n");
+    scanf("%f %f", &c, &d);
+    printf("\n");
+
+    sum = a - (-1*b) - (-1*c) - (-1*d);
+    printf("%f", sum);
+
     return 0;
 }
