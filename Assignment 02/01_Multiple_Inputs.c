@@ -20,7 +20,8 @@ int main()
     scanf("%s", sec);
     printf("\n");
 
-    printf("Hi %s ! You are from %s %s - %s. Congrats !!! ", name, dept, spec, sec);
+    printf("Name : %s \n", name);
+    printf("Class : %s %s %s",  dept, spec, sec);
 
     return 0;
 }
