@@ -2,7 +2,7 @@
 
 int main()
 {
-  int d;
+  int d, out;
   char x;
 
   printf("Enter a integer : ");
@@ -12,7 +12,7 @@ int main()
   scanf("\n");
   scanf("%c", &x);
 
-  x = x+d;
+  out = x+d;
 
-  printf("The Output is  %c", x);
+  printf("The Output is  %c and %d", out, out);
 }
