@@ -19,5 +19,3 @@ ASSIGNMENT NO 6
 9. Write a C program to merge 2 arrays.
 
 10. Write a c program to copy elements from one array to another array.
-
-11. Matrix Addition
