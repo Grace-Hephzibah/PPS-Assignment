@@ -33,7 +33,7 @@ int main()
     }
 
 
-    // Printing the reverse order
+
     printf("Array without duplicates order \n");
     for (int i = 0; i <= size; i++)
         printf("%d \t", new[i]);
